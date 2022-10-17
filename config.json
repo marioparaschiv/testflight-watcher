@@ -1,0 +1,42 @@
+{
+   "webhook": "<discord webhook>",
+   "successMessage": "@everyone Successfully redeemed {code}.",
+   "code": "<testflight app code>",
+   "interval": 1000,
+   "accountId": {
+      "checker": "<uuid>",
+      "redeemer": "<uuid>"
+   },
+   "headers": {
+      "checker": {
+         "Host": "testflight.apple.com",
+         "Accept": "application/json",
+         "X-Session-Id": "",
+         "X-Session-Digest": "",
+         "X-Active-Devices": "",
+         "Accept-Encoding": "gzip, deflate, br",
+         "X-Apple-TA-Device": "",
+         "Accept-Language": "en-GB",
+         "X-Request-Id": "",
+         "Content-Type": "application/json",
+         "User-Agent": "",
+         "Connection": "keep-alive",
+         "X-Apple-Device-Model": ""
+      },
+      "redeemer": {
+         "Host": "testflight.apple.com",
+         "Accept": "application/json",
+         "X-Session-Id": "",
+         "X-Session-Digest": "",
+         "X-Active-Devices": "",
+         "Accept-Encoding": "gzip, deflate, br",
+         "X-Apple-TA-Device": "",
+         "Accept-Language": "en-GB",
+         "X-Request-Id": "",
+         "Content-Type": "application/json",
+         "User-Agent": "",
+         "Connection": "keep-alive",
+         "X-Apple-Device-Model": ""
+      }
+   }
+}
