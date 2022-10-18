@@ -18,7 +18,7 @@ async function start() {
          Logger[color]('Payload Status:', full ? data.status.red : data.status.green);
          Logger[color]('Payload Message:', full ? data.message.red : data.message);
 
-         if (!full) redeem();
+         if (!full) await redeem();
       }
    } catch (e) {
       Logger.error('Failed to check/redeem:', e.message);
