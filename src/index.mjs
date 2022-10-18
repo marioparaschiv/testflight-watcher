@@ -43,7 +43,7 @@ async function redeem() {
                method: 'POST',
                headers: { 'Content-Type': 'application/json' },
                body: JSON.stringify({
-                  content: config.successMessage?.replace('{code}', config.code) ?? '@everyone Successfully redeemed {code}.'
+                  content: (config.successMessage ?? '@everyone Successfully redeemed {code}.').replace('{code}', config.code)
                })
             });
          } catch (e) {
