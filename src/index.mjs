@@ -10,7 +10,7 @@ async function start() {
       const url = Routes.STATUS(config.accountId.checker, config.code);
       const res = await fetch(url, { headers: config.headers.checker });
 
-      const { data } = await res.json() || {};
+      const { data } = await res.json().catch(() => ({})) || {};
       if (data?.message) {
          const full = data?.status === 'FULL';
          const color = full ? 'error' : 'success';
