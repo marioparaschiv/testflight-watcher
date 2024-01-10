@@ -11,7 +11,7 @@ async function start() {
       const res = await fetch(url, { headers: config.headers.checker });
 
       const { data } = await res.json().catch(() => ({})) || {};
-      if (data?.message) {
+      if (data?.message || data?.status == 'OPEN') {
          const full = data?.status === 'FULL';
          const color = full ? 'error' : 'success';
 
@@ -19,6 +19,8 @@ async function start() {
          Logger[color]('Payload Message:', full ? data.message.red : data.message);
 
          if (!full) await redeem();
+      } else {
+         Logger.debug('Got unknown response:', data);
       }
    } catch (e) {
       Logger.error('Failed to check/redeem:', e.message);
