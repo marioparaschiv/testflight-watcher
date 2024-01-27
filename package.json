@@ -1,23 +1,23 @@
 {
-   "name": "testflight-sniper",
-   "version": "1.0.0",
-   "description": "Snipes TestFlight apps. Configurable & has the ability to use a burner account for checking the status to avoid bans.",
-   "main": "src/index.mjs",
-   "keywords": [
-      "testflight",
-      "sniper",
-      "test",
-      "flight",
-      "apple",
-      "ios",
-      "beta",
-      "alpha"
-   ],
-   "author": "eternal <eternal.git@gmail.com> (https://github.com/localip)",
-   "license": "Unlicensed",
-   "dependencies": {
-      "chalk": "^5.1.0",
-      "lighter-colors": "^1.0.0",
-      "node-fetch": "^3.2.10"
-   }
+	"name": "testflight-sniper",
+	"version": "1.0.0",
+	"description": "Snipes TestFlight apps. Configurable & has the ability to use a burner account for checking the status to avoid bans.",
+	"main": "src/index.mjs",
+	"keywords": [
+		"testflight",
+		"sniper",
+		"test",
+		"flight",
+		"apple",
+		"ios",
+		"beta",
+		"alpha"
+	],
+	"author": "Mario <mariovparaschiv@gmail.com> (github.com/localip)",
+	"license": "Unlicensed",
+	"dependencies": {
+		"chalk": "^5.1.0",
+		"lighter-colors": "^1.0.0",
+		"node-fetch": "^3.2.10"
+	}
 }
