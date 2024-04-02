@@ -13,7 +13,7 @@
 		"beta",
 		"alpha"
 	],
-	"author": "Mario <mariovparaschiv@gmail.com> (github.com/localip)",
+	"author": "Mario <me@marioparaschiv.com> (github.com/marioparaschiv)",
 	"license": "Unlicensed",
 	"dependencies": {
 		"chalk": "^5.1.0",
