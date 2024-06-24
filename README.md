@@ -1,5 +1,5 @@
 # TestFlight Sniper
-Snipes TestFlight beta apps. Configurable & has the ability to use a burner account for checking the status to avoid bans.
+Watches TestFlight apps for open slots.
 
 # Features
 - Independent accounts for both redeeming and checking the status of an app
