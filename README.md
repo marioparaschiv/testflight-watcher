@@ -1,4 +1,4 @@
-# TestFlight Watcher
+# 👁️ TestFlight Watcher
 Watches TestFlight apps for open slots.
 
 # Features
