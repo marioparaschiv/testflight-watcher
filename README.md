@@ -1,4 +1,4 @@
-# TestFlight Sniper
+# TestFlight Watcher
 Watches TestFlight apps for open slots.
 
 # Features
@@ -45,4 +45,4 @@ Watches TestFlight apps for open slots.
 
 - You may also want to remove the proxy we had set earlier by going into `WiFi -> Your Network -> (i) icon -> Configure Proxy` and setting it to `Off`
 
-- Once done, you may proceed to launch the sniper by making sure you have dependencies installed (`npm i`) and using `node .` to start the sniper.
+- Once done, you may proceed to launch the watcher by making sure you have dependencies installed (`npm i`) and using `node .` to start the sniper.
