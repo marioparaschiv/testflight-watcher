@@ -7,4 +7,4 @@ Watches TestFlight apps for open slots.
 - Discord webhook support
 
 # Setup
-Please visit the [wiki](https://github.com/marioparaschiv/testflight-watcher/wiki) to set up this project.
+Please visit the [wiki](https://github.com/marioparaschiv/testflight-watcher/wiki/Setup) to set up this project.
