@@ -1,5 +1,7 @@
-# 👁️ TestFlight Watcher
-Watches TestFlight apps for open slots.
+<div align="center">
+  <h1>👁️ TestFlight Watcher</h1>
+  <p>Watches TestFlight apps for open slots.</p>
+</div>
 
 ## Features
 - Independent accounts for both redeeming and checking the status of an app
