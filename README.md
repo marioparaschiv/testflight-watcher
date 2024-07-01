@@ -14,3 +14,6 @@
 
 ## Setup
 Please visit the [wiki](https://github.com/marioparaschiv/testflight-watcher/wiki/Setup) to set up this project.
+
+## Licensing
+See [LICENSE](/LICENSE).
